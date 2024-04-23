@@ -1,21 +1,19 @@
 ---
 layout: post
-title: "可能是最全面的github pages搭建个人博客教程"
-date:   2019-11-22
+title: "博客模板"
+date:   2024-04-22
 tags: [geek]
 comments: true
-author: lemonchann
+author: Cedric Chen
 ---
 
-作为一个程序员怎么能没有自己的个人博客呢，这里详细记录和分享我的博客搭建经验，让你轻轻松松拥有自己的博客网站。傻瓜式一站式教你用 github pages 来搭建博客，详细记录全过程，保证你能学会。
-
-如果你是非程序员或者不关系技术细节，只需花 3 分钟阅读前面 5 个章节内容，就能轻松拥有自己的博客。
+根据模板轻松拥有自己的博客。
 
 <!-- more -->
 
 ## 开始
 
-话不多说，直接上图先来看下我的博客整体效果。[**点击在线预览我的博客**]( https://lemonchann.github.io/blog/)，个人比较喜欢这种简约的博客风格，不要花里胡哨但该有的功也都有。
+我的博客整体效果:[**点击在线预览我的博客**]( https://huashaop.github.io)
 
 ![blogPage](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/blogPage.png)
 
@@ -402,15 +400,3 @@ PicGo支持图片上传github、SM.MS图床、阿里云、腾讯云等主流图�
 _include/footer.html生成侧边栏
 
 _include/svg-icons.html生成社交头像的链接
-
-
-
-## 致谢
-
-感谢 [Jekyll](https://www.jekyll.com.cn/) 提供的技术支持才能有这个博客。
-
-感谢 [LOFFER ](https://fromendworld.github.io/LOFFER/document/)提供的原始模板，我在其上进行的二次开发。
-
-**我的个人技术公众号「后端技术学堂」分享、记录、成长，扫码添加，一起学习，共同成长。**
-
-![公众号二维码](https://upload-images.jianshu.io/upload_images/7842464-15f939ec039690f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
