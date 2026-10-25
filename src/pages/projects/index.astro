@@ -1,0 +1,27 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Main from "@/components/Main.astro";
+import ProjectCard from "@/components/ProjectCard.astro";
+import { projects } from "@/data/projects";
+import config from "@/config";
+
+const { site } = config;
+---
+
+<Layout
+  title={`项目 | ${site.title}`}
+  description="做过的东西：浏览器里的物理沙盒、爬虫，以及一些实验。"
+>
+  <Header />
+  <Main
+    pageTitle="项目"
+    pageDesc="Things I've built — 从物理引擎到小工具，都跑在浏览器里。"
+  >
+    <ul class="grid gap-4 sm:grid-cols-2">
+      {projects.map(project => <ProjectCard project={project} />)}
+    </ul>
+  </Main>
+  <Footer />
+</Layout>
